@@ -1,0 +1,3 @@
+python maddpg/experiments/train.py --scenario simple_hockey --max-episode-len 50 --num-episodes 60000 --exp-name hockey_01 --save-dir ./learning_reports/
+
+python maddpg/experiments/train.py --scenario simple_hockey --max-episode-len 50 --load-dir ./learning_reports/ --display
